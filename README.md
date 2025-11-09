@@ -8,16 +8,25 @@ Temas vistos en clase
 Que es un programa:
 
 Un programa es un conjunto de instrucciones que le dicen a una computadora qué hacer.
-•	Estas instrucciones están escritas en un lenguaje especial que la computadora puede entender, como Python.
-•	Le dicen a la computadora paso a paso qué acciones debe realizar.
-•	Pueden incluir cosas como:
+Estas instrucciones están escritas en un lenguaje especial que la computadora puede entender, como Python.
+Le dicen a la computadora paso a paso qué acciones debe realizar.
+
+Pueden incluir cosas como:
+
 o	Hacer cuentas
+
 o	Tomar decisiones
+
 o	Repetir tareas (como en un bucle)
-o	Guardar y usar datos
+
+o	 Guardar y usar datos
+
  Un programa es como una receta de cocina:
+ 
 •	Dice qué ingredientes usar (datos)
+
 •	Qué pasos seguir (instrucciones)
+
 •	Y en qué orden hacerlo (secuencia)
 
 Que es una variable:
@@ -32,9 +41,13 @@ También ayudan a que el programa sea más claro, ordenado y fácil de entender,
 Además, son muy importantes para realizar cálculos, comparar valores y tomar decisiones dentro del programa.
 Sin las variables, sería mucho más difícil crear programas útiles o interactivos.
 
+
 NOMBRE_PAGINA = "Mi Página Personal"
+
 usuario = "María Fernanda"
+
 mensaje = f"Hola, {usuario}, bienvenida a {NOMBRE_PAGINA} "
+
 print(mensaje) 
 
 Reflexion personal sobre lo aprendido.
