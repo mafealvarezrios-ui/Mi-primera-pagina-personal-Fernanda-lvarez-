@@ -43,15 +43,16 @@ Sin las variables, sería mucho más difícil crear programas útiles o interact
 
 ## Ejemplo de python.
 
-´´´python
-NOMBRE_PAGINA = "Mi Página Personal"
+```python
+       NOMBRE_PAGINA = "Mi Página Personal"
 
-usuario = "María Fernanda"
+        usuario = "María Fernanda"
 
-mensaje = f"Hola, {usuario}, bienvenida a {NOMBRE_PAGINA} "
+        mensaje = f"Hola, {usuario}, bienvenida a {NOMBRE_PAGINA} "
 
-"print(mensaje) 
-´´´
+         "print(mensaje) 
+```
+
 
 ## Reflexion personal sobre lo aprendido.
 
