@@ -50,7 +50,7 @@ Sin las variables, sería mucho más difícil crear programas útiles o interact
 
         mensaje = f"Hola, {usuario}, bienvenida a {NOMBRE_PAGINA} "
 
-         "print(mensaje) 
+         print(mensaje) 
 ```
 
 
