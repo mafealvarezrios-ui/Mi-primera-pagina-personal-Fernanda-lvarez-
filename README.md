@@ -64,8 +64,11 @@ También comprendí que las variables son como cajitas donde guardamos informaci
 
 - Microsoft Copilot – “Your AI companion”. Disponible en: https://copilot.microsoft.com/chats/fAEskyhcHSsBEgTA2zXno
 
-
-
+          ## crea una tortuga ## 
+         import turtle
+       t= turtle. turtle() # crea una tortuga
+         "print(5 pasos adelante)
+           input(3 pasos abajo)
       "# escalon 1
             adelante(5)
                      abajo(2)" 
