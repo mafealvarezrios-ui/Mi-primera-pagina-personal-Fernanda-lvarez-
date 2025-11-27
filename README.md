@@ -65,9 +65,10 @@ También comprendí que las variables son como cajitas donde guardamos informaci
 - Microsoft Copilot – “Your AI companion”. Disponible en: https://copilot.microsoft.com/chats/fAEskyhcHSsBEgTA2zXno
 
 
- "# escalon 1
- adelante(5)
- abajo(2)" 
+
+      "# escalon 1
+            adelante(5)
+                     abajo(2)" 
  
 
 
