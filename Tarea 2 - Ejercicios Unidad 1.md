@@ -18,7 +18,9 @@ print("-" * pasos + ">")
            
         "pasos = 10
         for i in range(pasos):
+        
         print("|")   
+        
          print("V")
 
             print("La tortuga bajo",pasos,"pasos.")"
