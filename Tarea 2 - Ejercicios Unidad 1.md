@@ -8,11 +8,11 @@
            ## Reto 1 simula el comportamiento de la tortuga usando solo print() e input() ## 
            
        
-         pasos = 50
-      print("Creando tortuga simulada que da...", pasos, "pasos")
-      print("-" * pasos + ">")
+    pasos = 50
+print("Creando tortuga simulada que da...", pasos, "pasos")
 
-
+for i in range(pasos):
+    print("-" * (i + 1) + ">")
 
 
 
