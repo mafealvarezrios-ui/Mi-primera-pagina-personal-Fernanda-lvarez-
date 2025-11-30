@@ -19,9 +19,9 @@ print("-" * pasos + ">")"
       "pasos = 10
 for i in range(pasos):
     print("|")   
- print("V")
+  print("V")
 
-print("La tortuga bajo",pasos,"pasos.")"
+ print("La tortuga bajo",pasos,"pasos.")"
 
 
         ## Reto 3 Girar y dibujar usando solo print() e input() ##
