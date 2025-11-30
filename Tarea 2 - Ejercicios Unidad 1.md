@@ -6,12 +6,11 @@
                    
 
 
-
           ## Reto 1 simula el comportamiento de la tortuga usando solo print() e input() ## 
           
         
 
-           ""pasos = 10
+           "pasos = 10
         for i in range(pasos):
         print("|")   
         print("V")
@@ -25,7 +24,7 @@
 
 
 
-        "pasos_bajada = 15
+           "pasos_bajada = 15
         pasos_adelante = 10
 
          print("-" * pasos_adelante + ">")
@@ -40,7 +39,7 @@
 
           print("La tortuga avanzo", pasos_adelante,"pasos.")
           print("La tortuga bajo", pasos_bajada, "pasos.")
-          print("La tortuga recorrió un total de", pasos_totales, "pasos.")"
+            print("La tortuga recorrió un total de", pasos_totales, "pasos.")"
 
           
 
@@ -48,7 +47,7 @@
 
           
 
-          " pasos_adelante = int(input("¿Cuántos pasos avanza la tortuga? "))
+             " pasos_adelante = int(input("¿Cuántos pasos avanza la tortuga? "))
            pasos_abajo = int(input("¿Cuántos pasos baja la tortuga? "))
 
           def adelante(pasos):
@@ -64,15 +63,15 @@
       print(" " * pasos_adelante + "V")
 
        adelante(pasos_adelante)
-       abajo(pasos_abajo)"
+          abajo(pasos_abajo)"
 
 
  
-      ## Reto 5 La tortuga baja las escalones ##
+        ## Reto 5 La tortuga baja las escalones ##
 
       
 
-      ""pasos_adelante = int(input("¿Cuántos pasos avanza la tortuga? "))
+         "pasos_adelante = int(input("¿Cuántos pasos avanza la tortuga? "))
        pasos_abajo = int(input("¿Cuántos pasos baja la tortuga? "))
 
          posicion_x = 0
@@ -83,7 +82,7 @@
        print(" " * posicion_x + "-" * pasos + ">")
        posicion_x += pasos
 
-     def abajo(pasos):
+      def abajo(pasos):
        global posicion_x, posicion_y
 
        for i in range(pasos):
@@ -94,7 +93,7 @@
       posicion_y += pasos
 
       adelante(pasos_adelante)
-      abajo(pasos_abajo)""
+        abajo(pasos_abajo)"
 
 
 
