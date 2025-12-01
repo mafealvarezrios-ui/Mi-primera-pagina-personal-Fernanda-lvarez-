@@ -4,14 +4,15 @@
 
 # Reto 1 simula el comportamiento de la tortuga usando solo print() e input() #
 
-pasos = 50
+  "pasos = 50
 print("creando tortuga simulada que da...", pasos, "pasos")
-print("-" * pasos + ">")
-Reto 2 Tortuga bajando
-pasos = 10
+print("-" * pasos + ">")"
+
+# Reto 2 Tortuga bajando
+  "pasos = 10
 for i in range(pasos):
     print("|")   
-print("V")
+ print("V")"
 
 print("La tortuga bajo",pasos,"pasos.")
 Reto 3 Girar y dibujar usando solo print() e input()
