@@ -10,43 +10,43 @@
 
 # Reto 2 Tortuga bajando
          pasos = 10
-       for i in range(pasos):
-       print("|")   
-       print("V")"
-       print("La tortuga bajo",pasos,"pasos.")
+         for i in range(pasos):
+         print("|")   
+         print("V")"
+         print("La tortuga bajo",pasos,"pasos.")
   
 # Reto 3 Girar y dibujar usando solo print() e input()
           pasos_bajada = 15
           pasos_adelante = 10
 
-       print("-" * pasos_adelante + ">")
+         print("-" * pasos_adelante + ">")
 
-        for i in range(pasos_bajada):
-        print(" " * pasos_adelante + "|")   
+         for i in range(pasos_bajada):
+         print(" " * pasos_adelante + "|")   
 
-        print(" " * pasos_adelante + "V")
+         print(" " * pasos_adelante + "V")
 
 
         pasos_totales = pasos_adelante + pasos_bajada
 
-     print("La tortuga avanzo", pasos_adelante,"pasos.")
-     print("La tortuga bajo", pasos_bajada, "pasos.")
-     print("La tortuga recorrió un total de", pasos_totales, "pasos.")
+        print("La tortuga avanzo", pasos_adelante,"pasos.")
+        print("La tortuga bajo", pasos_bajada, "pasos.")
+        print("La tortuga recorrió un total de", pasos_totales, "pasos.")
      
 # Reto 4 Encapsula los comportamientos anteriores usando funciones
 
-       pasos_adelante = int(input("¿Cuántos pasos avanza la tortuga? "))
-       pasos_abajo = int(input("¿Cuántos pasos baja la tortuga? "))
+        pasos_adelante = int(input("¿Cuántos pasos avanza la tortuga? "))
+        pasos_abajo = int(input("¿Cuántos pasos baja la tortuga? "))
  
-       def adelante(pasos):
+        def adelante(pasos):
         global pasos_adelante
         pasos_adelante = pasos
         print("-" * pasos + ">")
 
 
-      def abajo(pasos):
+        def abajo(pasos):
         for i in range(pasos):
-         print(" " * pasos_adelante + "|")
+        print(" " * pasos_adelante + "|")
 
        print(" " * pasos_adelante + "V")
 
@@ -61,20 +61,20 @@
          posicion_x = 0
          posicion_y = 0
 
-        def adelante(pasos):
+         def adelante(pasos):
          global posicion_x, posicion_y
          print(" " * posicion_x + "-" * pasos + ">")
          posicion_x += pasos
 
-        def abajo(pasos):
-        global posicion_x, posicion_y
+         def abajo(pasos):
+         global posicion_x, posicion_y
 
-       for i in range(pasos):
+        for i in range(pasos):
         print(" " * posicion_x + "|")
     
-      print(" " * posicion_x + "V")
+        print(" " * posicion_x + "V")
 
-       posicion_y += pasos
+        posicion_y += pasos
 
          adelante(pasos_adelante)
           abajo(pasos_abajo)
