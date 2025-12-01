@@ -10,7 +10,7 @@
 
 # Reto 2 Tortuga bajando
        pasos = 10
-       for i in range(pasos):
+for i in range(pasos):
        print("|")   
        print("V")"
        print("La tortuga bajo",pasos,"pasos.")
@@ -19,9 +19,9 @@
         pasos_bajada = 15
         pasos_adelante = 10
 
-        print("-" * pasos_adelante + ">")
+   print("-" * pasos_adelante + ">")
 
-        for i in range(pasos_bajada):
+   for i in range(pasos_bajada):
         print(" " * pasos_adelante + "|")   
 
         print(" " * pasos_adelante + "V")
@@ -29,9 +29,9 @@
 
         pasos_totales = pasos_adelante + pasos_bajada
 
-        print("La tortuga avanzo", pasos_adelante,"pasos.")
-        print("La tortuga bajo", pasos_bajada, "pasos.")
-        print("La tortuga recorrió un total de", pasos_totales, "pasos.")
+   print("La tortuga avanzo", pasos_adelante,"pasos.")
+   print("La tortuga bajo", pasos_bajada, "pasos.")
+   print("La tortuga recorrió un total de", pasos_totales, "pasos.")
      
 # Reto 4 Encapsula los comportamientos anteriores usando funciones
 
