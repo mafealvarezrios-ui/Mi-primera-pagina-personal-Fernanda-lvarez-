@@ -16,8 +16,8 @@
          print("La tortuga bajo",pasos,"pasos.")
   
 # Reto 3 Girar y dibujar usando solo print() e input()
-          pasos_bajada = 15
-          pasos_adelante = 10
+         pasos_bajada = 15
+         pasos_adelante = 10
 
          print("-" * pasos_adelante + ">")
 
