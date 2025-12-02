@@ -9,11 +9,7 @@
   
 
 # Reto 2 Tortuga bajando
-         pasos = 10
-         for i in range(pasos):
-         print("|")   
-         print("V")"
-         print("La tortuga bajo",pasos,"pasos.")
+        
   
 # Reto 3 Girar y dibujar usando solo print() e input()
          pasos_bajada = 15
