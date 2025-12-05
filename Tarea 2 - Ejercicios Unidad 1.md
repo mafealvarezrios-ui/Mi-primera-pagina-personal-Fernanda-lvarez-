@@ -19,14 +19,14 @@
       dato = input()
        if dato.lower() == "stop":
          break
-      r.append("|")
+      T.append("|")
 
 
      print("\n" * 30)
 
      print("tortuga bajando")
 
-     for x in r:
+     for x in T:
         print(" ", x)
 
         print("  🐢")
