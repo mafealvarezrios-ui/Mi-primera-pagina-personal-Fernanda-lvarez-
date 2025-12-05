@@ -38,18 +38,50 @@
         
 # Reto 4 Encapsula los comportamientos anteriores usando funciones
 
+         pasos_adelante = int(input("¿Cuántos pasos avanza la tortuga? "))
+         pasos_abajo = int(input("¿Cuántos pasos baja la tortuga? "))
+       
+        def adelante(n):
+           print("→" * n)
+ 
+      def abajo(n):
+        for _ in range(n):
+           print("↓")
 
       
 # Reto 5 La tortuga baja las escalones
 
-        def  Escalón 1
-        adelante(5)
-        abajo(2)
+ pasos_adelante = 15   # pasos hacia la derecha
+ pasos_abajo = 20      # pasos hacia abajo
 
-       def  Escalón 2
-       adelante(5)
-       abajo(2)
 
-      def Escalón 3
-      adelante(5)
-      abajo(2)
+ posicion_x = 0  
+
+
+   def adelante(pasos):
+      global posicion_x
+      # Tramo horizontal
+      print(" " * posicion_x + "-" * pasos + ">")
+      posicion_x += pasos   # Se acumula la posición
+
+
+  def abajo(pasos):
+      global posicion_x
+      # Tramo vertical
+      for i in range(pasos):
+        print(" " * posicion_x + "|")
+     # Pie del tramo
+     print(" " * posicion_x + "V")
+
+
+    adelante(pasos_adelante)
+    abajo(pasos_abajo)
+
+    adelante(pasos_adelante)
+    abajo(pasos_abajo)
+
+    adelante(pasos_adelante)
+    abajo(pasos_abajo)
+
+
+        
