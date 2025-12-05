@@ -51,8 +51,8 @@
       
 # Reto 5 La tortuga baja las escalones
 
-    pasos_adelante = 15   # pasos hacia la derecha
-    pasos_abajo = 20      # pasos hacia abajo
+    pasos_adelante = 15   
+    pasos_abajo = 20      
 
 
     posicion_x = 0  
