@@ -65,7 +65,7 @@
        posicion_x += pasos   # Se acumula la posición
 
 
-   def abajo(pasos):
+    def abajo(pasos):
        global posicion_x
        # Tramo vertical
        for i in range(pasos):
