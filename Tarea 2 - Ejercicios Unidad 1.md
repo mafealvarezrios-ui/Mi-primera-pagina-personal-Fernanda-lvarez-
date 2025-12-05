@@ -51,27 +51,27 @@
       
 # Reto 5 La tortuga baja las escalones
 
- pasos_adelante = 15   # pasos hacia la derecha
- pasos_abajo = 20      # pasos hacia abajo
+    pasos_adelante = 15   # pasos hacia la derecha
+    pasos_abajo = 20      # pasos hacia abajo
 
 
- posicion_x = 0  
+    posicion_x = 0  
 
 
-   def adelante(pasos):
-      global posicion_x
-      # Tramo horizontal
-      print(" " * posicion_x + "-" * pasos + ">")
-      posicion_x += pasos   # Se acumula la posición
+     def adelante(pasos):
+       global posicion_x
+       # Tramo horizontal
+       print(" " * posicion_x + "-" * pasos + ">")
+       posicion_x += pasos   # Se acumula la posición
 
 
-  def abajo(pasos):
-      global posicion_x
-      # Tramo vertical
-      for i in range(pasos):
+   def abajo(pasos):
+       global posicion_x
+       # Tramo vertical
+       for i in range(pasos):
         print(" " * posicion_x + "|")
-     # Pie del tramo
-     print(" " * posicion_x + "V")
+      # Pie del tramo
+      print(" " * posicion_x + "V")
 
 
     adelante(pasos_adelante)
