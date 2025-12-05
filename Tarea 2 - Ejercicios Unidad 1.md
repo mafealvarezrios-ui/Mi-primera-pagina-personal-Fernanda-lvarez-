@@ -11,7 +11,7 @@
 
 # Reto 2 Tortuga bajando
 
-          r = []
+          T = []
 
       print("tortuga bajando (pulsa ENTER para bajar, escribe 'stop' para terminar)")
 
