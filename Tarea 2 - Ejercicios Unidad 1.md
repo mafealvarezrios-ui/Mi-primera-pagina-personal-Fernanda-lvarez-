@@ -22,14 +22,14 @@
       r.append("|")
 
 
-    print("\n" * 30)
+     print("\n" * 30)
 
-   print("tortuga bajando")
+     print("tortuga bajando")
 
-    for x in r:
-       print(" ", x)
+     for x in r:
+        print(" ", x)
 
-       print("  🐢")
+        print("  🐢")
 
   
 # Reto 3 Girar y dibujar usando solo print() e input()
