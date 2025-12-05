@@ -10,15 +10,26 @@
   
 
 # Reto 2 Tortuga bajando
-            r = []
-         print("tortuga bajando")
-         while True:
-        input()
-        r.append("|")
-       print("\n" * 30)
-       print("tortuga bajando")
-       for x in r[:-1]: print(" ", x)
-       print("  🐢")
+
+          r = []
+
+      print("tortuga bajando (pulsa ENTER para bajar, escribe 'stop' para terminar)")
+
+       while True:
+      dato = input()
+       if dato.lower() == "stop":
+         break
+      r.append("|")
+
+
+  print("\n" * 30)
+
+  print("tortuga bajando")
+
+  for x in r:
+      print(" ", x)
+
+      print("  🐢")
 
   
 # Reto 3 Girar y dibujar usando solo print() e input()
